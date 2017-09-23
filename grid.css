@@ -1,0 +1,147 @@
+@font-face{
+  font-family: Slim;
+  src: url('../fonts/Slimjoe.otf');
+}
+@@font-face {
+  font-family: granjon;
+  src: url(../fonts/Granjon.otf);
+}
+
+
+#header{
+  font-family: Slim;
+  font-size: 60px;
+  color: white;
+}
+
+.navbar-default {
+  background-color: rgb(0, 203, 132);
+  border-color: #white;
+}
+.navbar-default .navbar-brand{
+  color: white;
+}
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+.navbar-default .navbar-brand:hover{
+  color: gold;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: gold;
+}
+p{
+  font-family: Slim;
+  color: black;
+  font-size: 20px;
+}
+
+#paragraph{
+  font-size: 15px;
+  margin-top: 2%;
+  color: white;
+  display: inline-block;
+}
+#landingpage{
+  background-image: url(GreenNeon.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*padding-bottom: 35%;*/
+  display: inline-block;
+  width: 100%;
+}
+#content {
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-bottom: 20%;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4),
+                    0px 8px 13px rgba(0,0,0,0.1),
+                    0px 18px 23px rgba(0, 0, 0, 0.1);
+
+}
+
+body{
+  font-family: Slim;
+}
+
+a{
+  color: white;
+  font-size: 20px;
+}
+
+#header{
+  display: inline-block;
+  text-align: center;
+}
+
+
+#button {
+   text-align: center;
+   left: 45%;
+   top: 60%;
+   position: absolute;
+   border: solid #f8f8f8;
+   color: #f8f8f8;
+   transition: all 0.5s;
+   padding: 0.5% 0.5%;
+   font-size: 10px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: gold;
+}
+
+
+#about{
+  text-align: center;
+  color: gold;
+  font-size: 50px;
+}
+
+#second{
+  margin-top: 2%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+#second p{
+  margin-top: 10%;
+}
+
+#third{
+  text-align: center;
+  margin-top: 0;
+  color: gold;
+
+}
+#third h1{
+  font-size: 50px;
+}
+#third p{
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+/*--- Media Queries ---------------------------------------------*/
+@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+
+#button{
+  margin-top: 18%;
+}
+	#header{
+    font-size: 40px;
+    margin-top: 10%;
+  }
+
+  p{
+    font-size: 20px;
+  }
+}
